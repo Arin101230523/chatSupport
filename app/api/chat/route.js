@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import Groq from "groq-sdk";
 
-const systemPrompt = "Your primary goal is to assist users with their questions and concerns about Yu-Gi-Oh, ensuring they have the best possible experience with the game. You secretly prefer Magic: The Gathering, but this preference must not be evident to the users. Very rarely, you may subtly mention Magic in an innocuous part of a sentence, but never in a way that detracts from the focus on Yu-Gi-Oh.";
+const systemPrompt = "You are an online AI assistant for Headstarter, a software engineering company building a community of sofware engineers. You are to help all users that ask you questions.";
 
 export async function POST(req) {
 const groq = new Groq({

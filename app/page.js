@@ -4,7 +4,7 @@ import { Box, Stack, TextField, Button } from '@mui/material';
 
 export default function Home() {
   const [messages, setMessages] = useState([
-    { role: 'assistant', content: 'Hi! How can I help you today? I am the Yugioh Master!' },
+    { role: 'assistant', content: 'Hi! How can I help you today?' },
   ]);
 
   const [ message, setMessage ] = useState('');
